@@ -1,0 +1,33 @@
+{
+  "name": "keyrune-data",
+  "version": "0.0.0",
+  "description": "Data extracted from the Keyrune font.",
+  "author": "Scott Hardy",
+  "license": "MIT",
+  "repository": "git@github.com:scott113341/keyrune-data.git",
+  "homepage": "https://github.com/scott113341/keyrune-data",
+  "bugs": "https://github.com/scott113341/keyrune-data/issues",
+  "keywords": [],
+  "main": "lib/index.js",
+  "files": [
+    "lib/"
+  ],
+  "scripts": {
+    "build": "babel --copy-files --out-dir lib/ src/",
+    "prebuild": "npm run clean",
+    "clean": "shx rm -rf lib/ && shx mkdir lib/",
+    "test": "node lib/test/index.js"
+  },
+  "dependencies": {
+    "keyrune": "*"
+  },
+  "devDependencies": {
+    "babel": "^6.5.2",
+    "babel-cli": "^6.10.1",
+    "babel-preset-es2015": "^6.9.0",
+    "babel-preset-stage-0": "^6.5.0",
+    "np": "^2.9.0",
+    "shx": "^0.1.4",
+    "tape": "^4.6.0"
+  }
+}
