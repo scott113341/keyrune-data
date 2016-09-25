@@ -6,7 +6,7 @@
 [![dev-dependencies][dev-dependencies-badge]][dev-dependencies-href]
 
 
-Data extracted from the Keyrune font.
+Data extracted from the [Keyrune](https://github.com/andrewgioia/Keyrune) font.
 
 
 [npm-version-badge]: https://img.shields.io/npm/v/keyrune-data.svg?style=flat-square
